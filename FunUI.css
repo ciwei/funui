@@ -1,0 +1,320 @@
+/* 图片墙 */
+.picture_wall{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #999999;
+	width: 200px;
+	height: 150px;
+}
+
+.cube{
+	margin: 0 0 0 0;
+	background-color: #cccccc;
+	width: 50px;
+	height: 50px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: red;
+	float: left;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.shadow_layer{
+	display: none;
+	position: absolute;
+	top: inherit;
+	left: inherit;
+	opacity: 0.5;
+	background-color: #333333;
+	width: inherit;
+	height: inherit;
+}
+
+.pop_layer{
+	display: none;
+	height: 50px;
+	width: 150px;
+	background-color: #FF6600;
+	position: absolute;
+	top: inherit;
+	opacity: 1;
+}
+
+.pop_layer .highlight_img{
+	height: inherit;
+	width: 50px;
+	position: absolute;
+	background-size: 100% 100%;
+	left: 0;
+	cursor: pointer;
+}
+
+.pop_layer .info{
+	width: 100px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+/*输入框*/
+.fun_input_div{
+	text-align: center;
+}
+
+.fun_input{
+	width: 150px;
+	height: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "微软雅黑";
+}
+
+.fun_input_label{
+	height: 20px;
+	margin-left: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+.fun_input_chk{
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	margin-right: 10px;
+	font-family: "微软雅黑";
+	color: red;
+	background-color: #ffd700;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	font-size: 10px;
+	position: absolute;
+	box-shadow: 3px 3px 5px #333333;
+}
+
+/*按钮*/
+.fun_button{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #aaaaaa;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+	background-color: #fffacd;
+	border-radius: 3px;
+}
+
+/*图片按钮*/
+.fun_img_button{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #aaaaaa;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+	background-color: #fffacd;
+	border-radius: 3px;
+}
+
+.fun_img_button div{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #aaaaaa;
+	color: red;
+	background-size: 100% 100%;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.fun_img_button span{
+	margin-left: 5px;
+	display: inline;
+	text-align: center;
+}
+
+/*表单*/
+.fun_form{
+	border-width: 1px;
+	border-color: #aaaaaa;
+	border-style: solid;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	width: 380px;
+	float: left;
+}
+
+.fun_form_img{
+	width: 100%;
+}
+
+.fun_form_title{
+	text-align: center;
+	background-color: #FF6600;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.fun_form_content{
+	width: 100%;
+	float: left;
+}
+
+.fun_form_content_wrap{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	float: left;
+}
+
+.fun_form_bottom{
+	background-color: #dcdcdc;
+	float: left;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*图片*/
+.fun_image{
+	height: 100px;
+	width: 100px;
+	background-size: 100% 100%;
+}
+
+/*listItem*/
+.fun_list_item{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #cccccc;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+/*listView*/
+.fun_list_view{
+	width: 120px;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	position: absolute;
+}
+
+/*提示气泡*/
+.fun_bubble{
+	min-width: 150px;
+	width: auto !important;
+	width: 150px;
+    height: auto;
+    float: left;
+    position: absolute;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+.fun_bubble_arrow_bottom{
+    border-left: 20px solid #dddddd;
+    border-bottom: 20px solid transparent;
+    margin-left: 20px;
+}
+
+.fun_bubble_arrow_top{
+    border-left: 20px solid #dddddd;
+    border-top: 20px solid transparent;
+    margin-left: 20px;
+}
+
+.fun_bubble_arrow_left{
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #dddddd;
+    width: 0px !important;
+    width: 20px;
+    margin-top: 25px;
+    position: absolute;
+    filter:alpha(opacity=80);
+}
+
+.fun_bubble_box{
+    background-color: #dddddd;
+    width: inherit;
+    min-height: 50px;
+    height: auto !important;
+    height: 50px;
+    font-family: "微软雅黑";
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #333333;
+	word-break:break-all;
+}
+
+/*选项卡*/
+.fun_tab{
+	width: 200px;
+	height: 50px;
+}
+
+/*表格*/
+.fun_table{
+	border-bottom: solid 1px #aaaaaa;
+	border-right: solid 1px #aaaaaa;
+	border-collapse: separate;
+	border-spacing:0px;
+	empty-cells:show;
+}
+
+.fun_table td{
+	min-width: 50px;
+	background: white;
+	border-top: solid 1px #aaaaaa;
+	border-left: solid 1px #aaaaaa;
+}
+
+/*工具栏*/
+.fun_toolbar{
+	width: auto;
+	height: auto;
+	border: solid 0px #000000;
+}
+
+/*带下拉列表工具栏*/
+.fun_listbar{
+	width: auto;
+	height: auto;
+	border: solid 0px #000000;
+}
+
+.fun_listbar_bottom{
+	position: absolute;
+	/*width: 100px;
+	height: 300px;
+	background: green;*/
+	top:40px;
+	color: #000000;
+}
